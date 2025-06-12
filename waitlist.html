@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroNova | Waitlist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">NeuroNova</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="waitlist.html" class="active">Waitlist</a>
+        <a href="contact.html">Contact</a>
+        <a href="tech.html">Tech</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="waitlist-container">
+    <div class="waitlist-content">
+      <h1><span>Join</span> Our Waitlist Now</h1>
+      <p>Be the first to know when we launch. Enter your email and join now!</p>
+      <form id="waitlist-form">
+        <input type="text" id="name" name="name" placeholder="Name" required />
+        <input type="email" id="email" name="email" placeholder="Email" required />    
+       <div class="radio-group">
+        <input type="radio" id="agree" name="updates" required />
+        <label for="agree">I agree to receive updates</label>
+        </div>
+        <button type="submit" class="yellow-btn">Join Waitlist</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NeuroNova | Tech Advancements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">NeuroNova</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="waitlist.html">Waitlist</a>
+      <a href="contact.html">Contact</a>
+      <a href="tech.html" class="active">Tech</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Latest Tech Advancements 🌐</h1>
+    <div class="filters">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+      </select>
+      <button id="refreshBtn">Refresh</button>
+    </div>
+    <div id="techGrid" class="card-grid">
+      <!-- Dynamic cards injected here -->
+    </div>
+  </div>
+
+  <!-- ✅ Move script here -->
+  <script src="script.js"></script>
+</body>
+</html>
